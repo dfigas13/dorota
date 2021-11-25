@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Main07 {
     public static void main(String[] args) {
 
-        for (int i = 0; i < 3; i++) {
+     /*   for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 System.out.println("i = " + i + " " + " j = " + j);
             }
@@ -45,8 +45,7 @@ public class Main07 {
         for (int i = average; i <= x; i++) {
              average *=i;
         }
-            System.out.println("Factorielle = " + average);
-
+            System.out.println("Factorielle = " + average);*/
 
 
     }
