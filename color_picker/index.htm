@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Color Picker</title>
+</head>
+<body>
+	<div id="box">
+		<div id="tf_input">
+			<h2>Color Picker</h2>
+			<label for="re-1">Red: </label>
+			<input type="number" name="r-1" value="0" min="0" max="255" id="red-1">
+			<label for="gr-1">Green: </label>
+			<input type="number" name="g-1" value="0" min="0" max="255" id="green-1">
+			<label for="bl-1">Blue: </label>
+			<input type="number" name="b-1" value="0" min="0" max="255" id="blue-1">
+			<a href="#" class="m_link">Add next swatch</a>
+		</div>
+		<div id="container">
+			<div class="swatch" id="picker-1"></div>
+		</div>
+		<label for="colors">Background Color: </label><br>
+		<label for="white">Light: </label>
+		<input type="radio" name="m_color" id="white">
+		<label for="grey">Mittel: </label>
+		<input type="radio" name="m_color" id="grey">
+		<label for="dark">Dark: </label>
+		<input type="radio" name="m_color" id="dark">
+	</div>	
+	<script src="js/script.js"></script>
+</body>
+</html>

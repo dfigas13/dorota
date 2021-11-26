@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Lemon);
+
+body {
+	width: 700px;
+	margin: 2em auto 0;
+	background: #ddd;
+	font-family: Lemon, Georgia, sans-serif;
+	position: relative;
+}
+
+div.herz {
+	position: relative;
+	width: 700px;
+	height: 630px;
+}
+
+/* .herz2 {
+	position: relative;
+	width: 700px;
+	height: 630px;
+	
+} */
+
+
+div.herz h2 {
+	position: absolute;
+	z-index: 50;
+	top: 90px;
+	left: 200px;
+	width: 300px;
+	text-align: center;
+	font-size: 42px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+	color: #fff;
+	line-height: 1.4;
+}
+
+div.herz:before, 
+div.herz:after {
+	position: absolute;
+	content: "";
+	text-align: center;
+	left: 350px;
+	top: 0;
+	width: 350px;
+	height: 560px;
+	background: red;
+ 	-webkit-border-radius: 350px 350px 0 0;
+		-moz-border-radius: 350px 350px 0 0;
+		-ms-border-radius: 350px 350px 0 0;
+		-o-border-radius: 350px 350px 0 0;
+			border-radius: 350px 350px 0 0;
+	-webkit-transform: rotate(-45deg);	
+		-moz-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);	
+			transform: rotate(-45deg);
+	-webkit-transform-origin: 100% 100%;
+		-moz-transform-origin: 100% 100%;
+		-ms-transform-origin: 100% 100%;
+		-o-transform-origin: 100% 100%;
+			transform-origin: 100% 100%; 
+}
+
+div.herz2:before, 
+div.herz2:after {
+	position: absolute;
+	content: "";
+	color: white;
+	right: 0;
+	top: 0;
+	width: 350px;
+	height: 560px;
+	background: red;
+	-webkit-border-radius: 350px 350px 0 0;
+		-moz-border-radius: 350px 350px 0 0;
+		-ms-border-radius: 350px 350px 0 0;
+		-o-border-radius: 350px 350px 0 0;
+			border-radius: 350px 350px 0 0;
+	-webkit-transform: rotate(45deg);	
+		-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-o-transform: rotate(45deg);	
+			transform: rotate(45deg);
+	-webkit-transform-origin: -22% 70%;
+		-moz-transform-origin: -22% 70%;
+		-ms-transform-origin: -22% 70%;
+		-o-transform-origin: -22% 70%;
+			transform-origin: -22% 70%;
+}
+
+
