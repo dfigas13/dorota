@@ -1,0 +1,96 @@
+/*  Schriftwerte*/
+/* html {
+	font-size: 16px;
+}
+
+section {
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 2em;
+} */
+
+/* html {
+	font-size: 10px;
+ }
+ section {
+	font-size: 20px;
+ }
+ h1 {
+	font-size: 2.5rem;
+ } */
+
+
+/* RElative einheiten */
+
+section {
+	width: 35%;
+	border: 2px solid tomato;
+}
+
+article {
+	width: 50vw;
+	height: 35vh;
+	background-color: lightblue;
+	font-size: 2rem;
+}
+
+/* Calc */
+.box {
+	width: calc(50% - 30px);
+	height: calc(10px + 10vh);
+	border: 10px solid tomato;
+	margin: 0 auto;
+}
+
+ul::before {
+	content: "List beginning";
+	color: blue;
+	font-weight: bold;
+}
+
+ul::after {
+	content: "List end";
+	color: red;
+	font-weight: bold;
+}
+
+
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title::before,
+.title::after {
+	content: "";
+	display: block;
+	height: 3px;
+	background: #222;
+	flex-grow: 1;
+}
+
+.title strong {
+	color: #fff;
+	display: inline-block;
+	padding: 10px 30px;
+	color: #222;
+}
+
+
+
+
+
+/* .element::first-letter {
+	color: #fff;
+	background: #2EC4B6;
+} */
+
+
+.element::first-line{
+	color: #fff;
+	background: #2EC4B6;
+ }
+
